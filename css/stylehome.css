@@ -1,0 +1,38 @@
+body {
+    background-image: url('../addons/homepage-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff !important;
+}
+
+.parceiro_style {
+    background: linear-gradient(120deg, #0004ff, #c700ff) !important;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.parceiro_style:hover {
+    background: linear-gradient(120deg, #c700ff, #0004ff) !important;
+    transition: 5s ease-in-out !important;
+}
+
+main {
+    /* Esse comando serve para ajustar a distância entre a main do footer, caso um footer seja adicionado */
+    min-height: calc(90vh - (60px + 40px));
+}
+
+.nav_style {
+    background-color: black !important;
+    font-size: 20px;
+    /* Defina o tamanho desejado, por exemplo, 18 pixels */
+}
+
+.image_style {
+    width: 30%;
+    height: 30%;
+}
+
+.footer_style {
+    background-color: #1b004e !important;
+}
