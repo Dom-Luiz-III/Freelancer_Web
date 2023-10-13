@@ -10,11 +10,11 @@ body {
     background: linear-gradient(120deg, #0004ff, #c700ff) !important;
     border-radius: 20px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 5s ease-in-out !important;
 }
 
 .parceiro_style:hover {
     background: linear-gradient(120deg, #c700ff, #0004ff) !important;
-    transition: 5s ease-in-out !important;
 }
 
 main {
